@@ -8,6 +8,7 @@ import { PorPaisComponent } from './pages/por-pais/por-pais.component';
 import { PorRegionComponent } from './pages/por-region/por-region.component';
 import { PorMonedaComponent } from './pages/por-moneda/por-moneda.component';
 import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ]
+
 })
 export class PaisModule { }
