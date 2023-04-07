@@ -9,6 +9,7 @@ import { PorRegionComponent } from './pages/por-region/por-region.component';
 import { PorMonedaComponent } from './pages/por-moneda/por-moneda.component';
 import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 import { RouterModule } from '@angular/router';
+import { PaisTablaComponent } from './components/pais-tabla/pais-tabla.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
     PorPaisComponent,
     PorRegionComponent,
     PorMonedaComponent,
-    VerPaisComponent
+    VerPaisComponent,
+    PaisTablaComponent
   ],
   exports:[
     PorCapitalComponent,
